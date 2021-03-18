@@ -1,0 +1,31 @@
+{% extends 'taskApp/index.html' %}
+
+{% block content %}
+<br>
+<div class="row"></div>
+    <div class="col-md-10">
+        <h5>Your Tasks:</h5>
+        <hr>
+        <div class="card card-body">
+            <table class="table table-sm">
+                <tr>
+                    <th>Task Name</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                </tr>
+
+                {% for s in schedule %}
+                    <tr>
+
+                        <td>{{s.task_name}}</td>
+                        <td>{{s.start_time}}</td>
+                        <td>{{s.end_time}}</td>
+                    </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
