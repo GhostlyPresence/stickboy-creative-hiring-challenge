@@ -1,9 +1,9 @@
 # stickboy-creative-hiring-challenge
-steps to run the app:\
-1. Clone the repository\
-2. cd into the directory\
-3. Run pip install -r requrements.txt to install the dependencies\
-4. Now cd into sbcHiringApp directory\
+steps to run the app:
+1. Clone the repository
+2. cd into the directory
+3. Run pip install -r requrements.txt to install the dependencies
+4. Now cd into sbcHiringApp directory
 5. Run python manage.py runserver to run the app
 
 To log into the admin panel add a superuser using the following command:\
